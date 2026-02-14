@@ -46,13 +46,6 @@ if (trigger) {
 // Close modal when clicking X button
 if (modalClose) {
   modalClose.addEventListener('click', closeModal);
-
-  // modalClose.addEventListener('keydown', (event) => {
-  //   if (event.key === 'Enter' || event.key === ' ') {
-  //     event.preventDefault();
-  //     closeModal();
-  //   }
-  // });
 }
 
 // Close modal when clicking outside the modal content
@@ -63,10 +56,3 @@ if (modal) {
     }
   });
 }
-
-// // Close modal on Escape key
-// document.addEventListener('keydown', (event) => {
-//   if (event.key === 'Escape' && modal.classList.contains('active')) {
-//     closeModal();
-//   }
-// });
