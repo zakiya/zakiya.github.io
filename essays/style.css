@@ -1,0 +1,46 @@
+:root {
+  --color-background: #fdfbf7;
+  --color-text: #2c2c2c;
+  --color-text-muted: #555;
+  --color-title: #1a1a1a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.essay {
+  margin: 0 auto;
+  max-width: 42rem;
+}
+
+.essay h1 {
+  color: var(--color-title);
+  font-size: 2.25rem;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  margin-bottom: 2.5rem;
+}
+
+.essay p {
+  margin-bottom: 1.5rem;
+}
+
+.essay .closing {
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-top: 2rem;
+  text-indent: 0;
+}
